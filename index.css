@@ -17,6 +17,7 @@ display: inline-block;
 #list>ul>li{
   display: inline-block;
   font-size: 30px;
+  margin: 5px;
 }
 ul>button{
   padding: 10px 20px;
@@ -67,4 +68,77 @@ ul>button{
 .right>img{
   width: 80%;
   display: inline-block;
+}
+
+#portfolio{
+  width: 70%;
+  /* border: 1px solid red; */
+  margin: 20px auto;
+}
+#portfolio>h1{
+  font-size: 50px;
+  text-align: center;
+}
+#portfolio>p{
+  text-align: center;
+}
+.card{
+  height: 520px;
+  width: 450px;
+  border: 2px solid rgb(196, 192, 192);
+  border-radius: 10px;
+  display: inline-block;
+  margin: 5px;
+}
+.card>.pic{
+  height: 200px;
+  /* width: 100%; */
+  /* border: 2px solid maroon; */
+}
+.pic>img{
+  width: 100%;
+}
+.content{
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 50px;
+}
+.content>h1{
+  margin-bottom: 20px;
+}
+.content>button{
+  padding: 10px;
+  height: 30px;
+  width: 100px;
+  margin-left: 15px;
+  text-align: center;
+  color: black;
+  border: 1px solid black;
+}
+button:hover{
+  border-color: #9929FB;
+  color: #9929FB;
+}
+form{
+  border-radius: 20px;
+  /* width: 49%; */
+}
+form>input{
+  display: list-item;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 14px;
+
+}
+footer{
+  height: 50px;
+  border: 10px solid black;
+  margin-top: 50px;
+  background-color: red;
+}
+footer>#anchor{
+  color: rgb(255, 255, 23);
+  font-size: 40px;
+ margin-left: 500px;
 }
